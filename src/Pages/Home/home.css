@@ -1,0 +1,31 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.home{
+    background: #111;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    padding: 1rem 3rem;
+}
+.h-detail{
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 500px;
+    padding: 1.4rem;
+}
+.h-detail h1{
+    font-size: 94px;
+    color: #d6fb41;
+}
+.h-detail p{
+    color: white;
+    font-size: 25px;
+}
+.h-detail .button{
+    width: fit-content !important;
+}

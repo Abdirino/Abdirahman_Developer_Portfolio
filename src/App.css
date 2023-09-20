@@ -29,11 +29,13 @@
   position: relative;
   cursor: pointer;
   background: -webkit-gradient(linear, left top, right top, color-stop(-12.74%, rgba(110, 239, 255, .5)), color-stop(56.76%, rgba(106, 224, 255, .271)));
-  background: linear-gradient(90deg, #8da628 -12.74%, #758b1a 56.76%);
+  background: linear-gradient(90deg, #404d0a -12.74%, #404d0a 56.76%);
   border: 2px solid #4a680a;
   color: #FFFFFF;
   font-size: 25px;
+  text-transform: capitalize;
   font-weight: 600;
+  transition: 0.4s ease;
 }
 
 .button:before {
@@ -61,11 +63,12 @@
   left: -2px;
   bottom: -2px;
   border-top: 15px solid transparent;
-  border-left: 15px solid #9ac00168;
+  border-left: 15px solid #ffffff;
 }
 
 .button:hover{
-  background: linear-gradient(90deg, #455212 -12.74%, #99b42d 56.76%);
+  background: #d6fb41;
+  color: black;
 }
 
 .nav-links{

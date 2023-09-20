@@ -17,14 +17,15 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  z-index: 1000;
 }
 
 .left {
   display: flex;
-  gap: 3.4rem;
+  gap: 3rem;
 }
 .nav-logo img {
-  width: 85px;
+  width: 75px;
 }
 .nav-items {
   display: flex;
@@ -35,5 +36,5 @@
   font-size: 30px !important;
 }
 .nav-links:hover {
-  color: #b6fb41;
+  color: #6a9c14;
 }

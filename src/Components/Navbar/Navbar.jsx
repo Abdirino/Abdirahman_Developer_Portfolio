@@ -39,7 +39,7 @@ const Navbar = () => {
                 </div>
 
                 <div className="right">
-                    <button className="button">Resume/CV</button>
+                    <button className="button">HIRE ME</button>
                 </div>
             </div>
         </>
