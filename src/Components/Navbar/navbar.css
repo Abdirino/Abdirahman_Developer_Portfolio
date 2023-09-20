@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  transition: 0.4s;
   text-decoration: none;
   list-style: none;
 }
@@ -20,18 +19,21 @@
   align-items: center;
 }
 
-.left{
-    display: flex;
-    gap: 3.4rem;
+.left {
+  display: flex;
+  gap: 3.4rem;
 }
 .nav-logo img {
-  width: 75px;
+  width: 85px;
 }
-.nav-items{
-    display: flex;
-    align-items: center;
-    gap: 2rem;
+.nav-items {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
 }
-.nav-links{
-    font-size: 24px !important;
+.nav-links {
+  font-size: 30px !important;
+}
+.nav-links:hover {
+  color: #b6fb41;
 }
