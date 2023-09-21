@@ -1,75 +1,141 @@
-*{
-    margin: 0; padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
 }
-.home{
-    background: #111;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100vh;
-    padding: 1rem 3rem;
+.home {
+  background: #111;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  padding: 1rem 3rem;
 }
-.h-detail{
-    text-align: start;
-    display: flex;
-    flex-direction: column;
-    flex: 1 1 600px;
-    padding: 1.4rem;
+.h-detail {
+  text-align: start;
+  display: flex;
+  flex: 1 1 600px;
+  flex-direction: column;
+  padding: 1.4rem;
 }
-.h-detail h1{
-    font-size: 94px;
-    color: #d6fb41;
+.h-detail h1 {
+  font-size: 90px;
+  color: #d6fb41;
 }
-.h-detail p{
-    color: white;
-    font-size: 35px;
-    padding: 2rem 0;
+.h-detail p {
+  color: white;
+  font-size: 35px;
+  padding: 2rem 0;
 }
-.h-detail .button{
-    width: fit-content !important;
-    margin: 1rem 0;
-}
-
-
-.h-links{
-    display: flex;
-    gap: 2rem;
-    flex-direction: column;
-    align-items: center;
-    flex: 1 1 400px !important;
-    position: relative !important;
-    right: 0;
+.h-detail .button {
+  width: fit-content !important;
+  margin: 1rem 0;
 }
 
-.proj-link{
-    display: flex;
-    flex-direction: column;
-    padding: 1.1rem;
-    border: 2px solid #fff;
-    color: white;
-    text-align: start;
-    gap: 1rem;
-}
-.proj-link h1{
-    font-size: 45px;
-}
-.proj-link h1 span{
-    color: #b6fb41;
-    cursor: pointer;
-}
-.proj-link h1 span:hover{
-    text-decoration: underline;
+.h-links {
+  display: flex;
+  flex: 1 1 400px;
+  gap: 2rem;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative !important;
+  right: 0;
 }
 
-.proj-link h2{
-    font-size: 45px;
-    color: rgb(155, 155, 155);
-    font-size: 30px;
+.proj-link {
+  display: flex;
+  flex-direction: column;
+  padding: 2.1rem;
+  box-shadow: 0 0 3px rgba(255, 255, 255, 0.3);
+  color: white;
+  text-align: start;
+  gap: 1rem;
+}
+.proj-link h1 {
+  font-size: 45px;
+}
+.proj-link h1 span {
+  color: #b6fb41;
+  cursor: pointer;
+}
+.proj-link h1 span:hover {
+  text-decoration: underline;
+}
+.proj-link h2 {
+  font-size: 45px;
+  color: rgb(155, 155, 155);
+  font-size: 30px;
 }
 
+.h-social {
+  display: flex;
+  flex-direction: column;
+  padding: 2.1rem;
+  box-shadow: 0 0 3px rgba(255, 255, 255, 0.3);
+  color: white;
+  text-align: start;
+  gap: 1rem;
+}
+.h-social h1 {
+  font-size: 45px;
+}
+.h-social h2 {
+  font-size: 45px;
+  color: rgb(155, 155, 155);
+  font-size: 30px;
+}
+.social {
+  padding: 1rem 0;
+  display: flex;
+  gap: 2rem;
+}
+.social i {
+  font-size: 50px;
+}
+.social:nth-child(1):hover {
+  background: blue;
+}
 
-.h-social{
+@media(max-width: 1670px) {
+  .home {
+    flex-wrap: wrap;
+    padding: 9rem 1rem 1rem 1rem;
+  }
+  .h-detail h1{
+    font-size: 54px;
+  }
+  .h-detail p{
+    font-size: 25px;
+  }
+  .h-detail{
+    padding: 1rem;
+  }
+  .h-social{
+    padding: 1rem;
+  }
+  .proj-link h1{
+    font-size: 25px;
+  }
+  .proj-link h2{
+    font-size: 18px;
+  }
+  .h-social h1{
+    font-size: 25px;
+  }
+  .h-social h2{
+    font-size: 18px;
+  }
+  .social i {
+    font-size: 40px;
+  }
+}
 
+@media(max-width:567px){
+    .h-detail h1{
+        font-size: 42px;
+    }
+    .home{
+        height: auto;
+    }
 }

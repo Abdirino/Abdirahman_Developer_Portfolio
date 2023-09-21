@@ -28,7 +28,17 @@ const Home = () => {
             </div>
 
             <div className="h-social">
-
+              <h1>Say Hello 🤝</h1>
+              <h2>Let's Connect and forge a meaningful
+                partnership in the digital realm.
+              </h2>
+              <div className="social">
+                <i class="fa-brands fa-square-x-twitter"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-square-facebook"></i>
+                <i class="fa-brands fa-square-github"></i>
+                <i class="fa-brands fa-square-instagram"></i>
+              </div>
             </div>
           </div>
         </div>

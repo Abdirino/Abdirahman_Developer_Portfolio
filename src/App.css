@@ -42,6 +42,15 @@
   transition: 0.3s ease;
 }
 
+@media(max-width:968px) {
+  .button{
+    min-height: 40px; min-width: 140px;
+    font-size: 21px;
+    border: 1px solid #4a680a;
+    gap: 0.6rem;
+  }
+}
+
 .button:before {
   content: "";
   width: 4px;
