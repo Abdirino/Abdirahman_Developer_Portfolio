@@ -20,11 +20,15 @@ const Home = () => {
           <div className="h-links">
 
             <div className="proj-link">
-              <h1>Build Production Ready Projects with me</h1>
+              <h1>Take a tour of my <span>projects</span></h1>
+              <h2>Explore My Work and discover the
+                creativity that fuels my designs, and the
+                innovation that breathes life into my code.
+              </h2>
             </div>
 
             <div className="h-social">
-              
+
             </div>
           </div>
         </div>
