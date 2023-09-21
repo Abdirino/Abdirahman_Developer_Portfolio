@@ -9,11 +9,24 @@ const Home = () => {
       <div className="Home">
         <div className="home">
           <div className="h-detail">
-            <h1>Hello there 👋, I'm Abdirahman Abdulaziz</h1>
-            <p>Lorem ipsum dolor sit amet quis.</p>
-            <button className="button">GET RESUME</button>
+            <h1>Hello there 👋,</h1>
+            <h1>I'm Abdirahman A.</h1>
+            <p>Front-End Developer specializing in HTML, CSS, JavaScript, React & Git.</p>
+            <button className="button">
+              <span>GET RESUME</span>
+              <i class="fa-solid fa-download"></i>
+            </button>
           </div>
-          <div className="h-social"></div>
+          <div className="h-links">
+
+            <div className="proj-link">
+              <h1>Build Production Ready Projects with me</h1>
+            </div>
+
+            <div className="h-social">
+              
+            </div>
+          </div>
         </div>
       </div>
     </>

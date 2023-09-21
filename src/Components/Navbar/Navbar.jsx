@@ -8,8 +8,8 @@ const Navbar = () => {
 
     const [click, setClick] = useState(false);
 
-    const handleClick = () => {setClick(!click);};
-    const close = () => {setClick(false)};
+    const handleClick = () => { setClick(!click); };
+    const close = () => { setClick(false) };
 
     return (
         <>
@@ -39,7 +39,10 @@ const Navbar = () => {
                 </div>
 
                 <div className="right">
-                    <button className="button">HIRE ME</button>
+                    <button className="button">
+                        <span>HIRE ME</span>
+                        <i class="fa-solid fa-angles-right"></i>
+                    </button>
                 </div>
             </div>
         </>
