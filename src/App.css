@@ -1,22 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Geologica:wght@300&display=swap");
 
 .App {
   text-align: center;
   transition: 0.4s ease-in-out;
   scroll-behavior: smooth;
 }
-.App h1, h2, h3, h4, span{
-  font-family: 'Overpass', sans-serif;
+.App h1, h2, h3, h4, span {
+  font-family: "Overpass", sans-serif;
   letter-spacing: 2px;
 }
-.App p, li, ul{
-  font-family: 'Geologica', sans-serif;
+.App p, li, ul {
+  font-family: "Geologica", sans-serif;
   letter-spacing: 1px;
 }
 
+/* Button CSS */
 .button {
-  font-family: 'ZCOOL QingKe HuangYou', sans-serif;
+  font-family: "ZCOOL QingKe HuangYou", sans-serif;
   letter-spacing: 1px;
   min-height: 50px;
   min-width: 170px;
@@ -32,7 +33,13 @@
   justify-content: space-around;
   position: relative;
   cursor: pointer;
-  background: -webkit-gradient(linear, left top, right top, color-stop(-12.74%, rgba(110, 239, 255, .5)), color-stop(56.76%, rgba(106, 224, 255, .271)));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(-12.74%, rgba(110, 239, 255, 0.5)),
+    color-stop(56.76%, rgba(106, 224, 255, 0.271))
+  );
   background: #d6fb41;
   border: 2px solid #4a680a;
   color: #000000;
@@ -42,9 +49,10 @@
   transition: 0.3s ease;
 }
 
-@media(max-width:968px) {
-  .button{
-    min-height: 40px; min-width: 140px;
+@media (max-width: 968px) {
+  .button {
+    min-height: 40px;
+    min-width: 140px;
     font-size: 21px;
     border: 1px solid #4a680a;
     gap: 0.6rem;
@@ -79,13 +87,56 @@
   border-left: 15px solid #ffffff;
 }
 
-.button:hover{
+.button:hover {
   background: linear-gradient(90deg, #677e08 -12.74%, #677e08 56.76%);
   color: rgb(255, 255, 255);
   gap: 2rem;
 }
+/* Button CSS*/
 
-.nav-links{
+.nav-links {
   color: inherit !important;
   text-decoration: inherit;
 }
+
+/* TEXT ANIMATION */
+
+.text {
+  -webkit-animation: focus-in-expand 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    both;
+  animation: focus-in-expand 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+.text2 {
+  -webkit-animation: focus-in-expand 1s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    both;
+  animation: focus-in-expand 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@-webkit-keyframes focus-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+@keyframes focus-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+/* TEXT ANIMATION */
