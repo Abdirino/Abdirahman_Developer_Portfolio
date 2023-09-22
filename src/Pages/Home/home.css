@@ -88,15 +88,15 @@
 .social {
   padding: 1rem 0;
   display: flex;
-  gap: 2rem;
+  gap: 1.4rem;
 }
 .social i {
-  font-size: 50px;
+  font-size: 40px;
   cursor: pointer;
   transition: 0.3s ease;
 }
 .social i:hover {
-  transform: scale(1.2);
+  transform: scale(1.12);
 }
 .social i:nth-child(1):hover {
   color: inherit;
@@ -122,37 +122,28 @@
   );
 }
 
-@media (max-width: 1370px) {
+@media (max-width: 1270px) {
   .home {
     flex-wrap: wrap;
-    padding: 9rem 1rem 1rem 1rem;
+    padding: 8rem 1rem 1rem 1rem;
   }
   .h-detail h1 {
-    font-size: 54px;
+    font-size: 24px;
   }
   .h-detail p {
     font-size: 25px;
   }
-  .h-detail {
+  .h-detail, .h-detail, .h-social {
     padding: 1rem;
   }
-  .h-social {
-    padding: 1rem;
-  }
-  .proj-link h1 {
+  .proj-link h1, .h-social h1 {
     font-size: 25px;
   }
-  .proj-link h2 {
-    font-size: 18px;
-  }
-  .h-social h1 {
-    font-size: 25px;
-  }
-  .h-social h2 {
+  .h-social h2, .proj-link h2 {
     font-size: 18px;
   }
   .social i {
-    font-size: 40px;
+    font-size: 35px;
   }
 }
 

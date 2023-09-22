@@ -13,14 +13,19 @@ const Navbar = () => {
 
     return (
         <>
-            <div className='navbar'>
+            <div className='navbar' onClick={(e) => e.stopPropagation}>
 
                 <div className="left">
-                    <div className="nav-logo">
-                        <img src={NavIcon} alt="" />
+                    <div className="nav-icon" onClick={handleClick}>
+                        <i className={click ? "fa fa-times" : "fa-solid fa-bars-staggered"}></i>
                     </div>
+                    <NavLink to='/'>
+                        <div className="nav-logo">
+                            <img src={NavIcon} alt="" />
+                        </div>
+                    </NavLink>
                     <ul className="nav-items">
-                        <li className="nav-item">
+                        <li>
                             <NavLink
                                 exact
                                 to="/"
