@@ -17,7 +17,7 @@ const Navbar = () => {
 
                 <div className="left">
                     <div className="nav-icon" onClick={handleClick}>
-                        <i className={click ? "fa fa-times" : "fa-solid fa-bars-staggered"}></i>
+                        <i className={click ? "fa-regular fa-circle-xmark" : "fa-solid fa-bars-staggered"}></i>
                     </div>
                     <NavLink to='/'>
                         <div className="nav-logo">
@@ -36,7 +36,17 @@ const Navbar = () => {
                                 Home
                             </NavLink>
                         </li>
-                        <li className="nav-links">About</li>
+                        <li>
+                            <NavLink
+                                exact
+                                to="about"
+                                activeClassName="active"
+                                className="nav-links"
+                                onClick={click ? handleClick : null}
+                            >
+                                About
+                            </NavLink>
+                        </li>
                         <li className="nav-links">Services</li>
                         <li className="nav-links">Portfolio</li>
                         <li className="nav-links">Contact</li>

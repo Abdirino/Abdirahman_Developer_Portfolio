@@ -11,6 +11,7 @@
   align-items: center;
   height: 100vh;
   padding: 1rem 2rem;
+  border-bottom: 1px solid grey;
 }
 .h-detail {
   text-align: start;

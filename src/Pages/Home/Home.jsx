@@ -1,6 +1,7 @@
 import React from 'react'
 import './home.css'
 import Navbar from '../../Components/Navbar/Navbar'
+import About from '../About/About'
 
 const Home = () => {
   return (
@@ -43,6 +44,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <About />
     </>
   )
 }

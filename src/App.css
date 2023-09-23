@@ -17,7 +17,7 @@
 
 /* Scrollbar css */
 ::-webkit-scrollbar{
-  width: 17px;
+  width: 11px;
 }
 ::-webkit-scrollbar-thumb{
   background: rgba(162, 222, 59, 0.9);
