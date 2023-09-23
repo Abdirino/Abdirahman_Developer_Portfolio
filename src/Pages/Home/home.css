@@ -10,23 +10,23 @@
   justify-content: space-between;
   align-items: center;
   height: 100vh;
-  padding: 1rem 3rem;
+  padding: 1rem 2rem;
 }
 .h-detail {
   text-align: start;
   display: flex;
   flex: 1 1 600px;
   flex-direction: column;
-  padding: 1.4rem;
+  padding: 1rem;
 }
 .h-detail h1 {
-  font-size: 90px;
+  font-size: 60px;
   color: #d6fb41;
 }
 .h-detail p {
   color: white;
-  font-size: 35px;
-  padding: 2rem 0;
+  font-size: 25px;
+  padding: 1.7rem 0;
 }
 .h-detail .button {
   width: fit-content !important;
@@ -36,7 +36,7 @@
 .h-links {
   display: flex;
   flex: 1 1 400px;
-  gap: 2rem;
+  gap: 1rem;
   flex-direction: column;
   align-items: flex-start;
   position: relative !important;
@@ -46,14 +46,14 @@
 .proj-link {
   display: flex;
   flex-direction: column;
-  padding: 2.1rem;
+  padding: 1.1rem;
   box-shadow: 0 0 3px rgba(255, 255, 255, 0.3);
   color: white;
   text-align: start;
   gap: 1rem;
 }
 .proj-link h1 {
-  font-size: 45px;
+  font-size: 25px;
 }
 .proj-link h1 span {
   color: #b6fb41;
@@ -63,40 +63,38 @@
   text-decoration: underline;
 }
 .proj-link h2 {
-  font-size: 45px;
   color: rgb(155, 155, 155);
-  font-size: 30px;
+  font-size: 18px;
 }
 
 .h-social {
   display: flex;
   flex-direction: column;
-  padding: 2.1rem;
+  padding: 1.1rem;
   box-shadow: 0 0 3px rgba(255, 255, 255, 0.3);
   color: white;
   text-align: start;
   gap: 1rem;
 }
 .h-social h1 {
-  font-size: 45px;
+  font-size: 25px;
 }
 .h-social h2 {
-  font-size: 45px;
   color: rgb(155, 155, 155);
-  font-size: 30px;
+  font-size: 18px;
 }
 .social {
   padding: 1rem 0;
   display: flex;
-  gap: 1.4rem;
+  gap: 1.1rem;
 }
 .social i {
-  font-size: 40px;
+  font-size: 35px;
   cursor: pointer;
   transition: 0.3s ease;
 }
 .social i:hover {
-  transform: scale(1.12);
+  transform: scale(1.08);
 }
 .social i:nth-child(1):hover {
   color: inherit;
@@ -128,7 +126,7 @@
     padding: 8rem 1rem 1rem 1rem;
   }
   .h-detail h1 {
-    font-size: 24px;
+    font-size: 48px;
   }
   .h-detail p {
     font-size: 25px;
