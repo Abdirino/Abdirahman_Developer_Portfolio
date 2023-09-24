@@ -34,11 +34,18 @@ const Home = () => {
                 partnership in the digital realm.
               </h2>
               <div className="social">
-                <i class="fa-brands fa-square-x-twitter text"></i>
-                <i class="fa-brands fa-linkedin text"></i>
-                <i class="fa-brands fa-square-facebook text"></i>
-                <i class="fa-brands fa-square-github text"></i>
-                <i class="fa-brands fa-square-instagram text"></i>
+                <a target="_blank" rel="noreferrer" href="https://twitter.com/AbdirinoAhash">
+                  <i class="fa-brands fa-square-x-twitter text"></i>
+                </a>
+                <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/abdirahman-abdulaziz/">
+                  <i class="fa-brands fa-linkedin text"></i>
+                </a>
+                <a target="_blank" rel="noreferrer" href="https://www.facebook.com/profile.php?id=61551517816377">
+                  <i class="fa-brands fa-square-facebook text"></i>
+                </a>
+                <a target="_blank" rel="noreferrer" href="https://github.com/Abdirino">
+                  <i class="fa-brands fa-square-github text"></i>
+                </a>
               </div>
             </div>
           </div>

@@ -5,6 +5,8 @@
   text-align: center;
   transition: 0.4s ease-in-out;
   scroll-behavior: smooth;
+  text-decoration: none;
+  list-style: none;
 }
 .App h1, h2, h3, h4, span {
   font-family: "Overpass", sans-serif;
@@ -103,7 +105,8 @@
 .button:hover {
   background: linear-gradient(90deg, #677e08 -12.74%, #677e08 56.76%);
   color: rgb(255, 255, 255);
-  gap: 2rem;
+  gap: 1.7rem;
+  /* flex-direction: row-reverse; */
 }
 /* Button CSS*/
 

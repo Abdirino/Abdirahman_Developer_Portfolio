@@ -94,13 +94,16 @@
   cursor: pointer;
   transition: 0.3s ease;
 }
-.social i:hover {
+.social a{
+  color: inherit; text-decoration: inherit;
+}
+.social a i:hover {
   transform: scale(1.08);
 }
-.social i:nth-child(1):hover {
+.social a i:nth-child(1):hover {
   color: inherit;
 }
-.social i:nth-child(2):hover {
+.social a i:nth-child(2):hover {
   color: #0a66c2;
 }
 .social i:nth-child(3):hover {
@@ -108,17 +111,6 @@
 }
 .social i:nth-child(4):hover {
   color: #6e5494;
-}
-.social i:nth-child(5):hover {
-  color: white;
-  background: radial-gradient(
-    circle at 30% 87%,
-    #fdf497 0%,
-    #fdf497 5%,
-    #fd5949 45%,
-    #d6249f 60%,
-    #285aeb 80%
-  );
 }
 
 @media (max-width: 1270px) {
