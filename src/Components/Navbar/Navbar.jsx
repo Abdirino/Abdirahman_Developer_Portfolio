@@ -9,7 +9,7 @@ const Navbar = () => {
     const [click, setClick] = useState(false);
 
     const handleClick = () => { setClick(!click); };
-    const close = () => { setClick(false) };
+    // const close = () => { setClick(false) };
 
     return (
         <>
@@ -24,7 +24,7 @@ const Navbar = () => {
                             <img src={NavIcon} alt="" />
                         </div>
                     </NavLink>
-                    <ul className="nav-items">
+                    <ul className={click ? "nav-items active" : "nav-items"}>
                         <li>
                             <NavLink
                                 exact
@@ -39,7 +39,7 @@ const Navbar = () => {
                         <li>
                             <NavLink
                                 exact
-                                to="about"
+                                to="/about"
                                 activeClassName="active"
                                 className="nav-links"
                                 onClick={click ? handleClick : null}
@@ -47,7 +47,17 @@ const Navbar = () => {
                                 About
                             </NavLink>
                         </li>
-                        <li className="nav-links">Services</li>
+                        <li className="nav-links">
+                            <NavLink
+                                exact
+                                to="/services"
+                                activeClassName="active"
+                                className="nav-links"
+                                onClick={click ? handleClick : null}
+                            >
+                                Services
+                            </NavLink>
+                        </li>
                         <li className="nav-links">Portfolio</li>
                         <li className="nav-links">Contact</li>
                     </ul>

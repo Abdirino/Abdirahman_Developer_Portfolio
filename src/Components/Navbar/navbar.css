@@ -52,7 +52,7 @@
   color: #6a9c14;
 }
 
-@media(max-width: 1270px){
+@media(max-width: 1170px){
   .left{
     gap: 1rem;
   }
@@ -63,10 +63,18 @@
     display: flex;
     flex-direction: column;
     height: auto;
+    width: 100%;
     position: absolute;
-    top: 60px;
-    left: -110%;
+    background: #111;
+    top: 64px;
+    right: -110%;
     opacity: 0;
+    padding: 35px 0;
+    transition: 0.5s ease;
+  }
+  .nav-items.active{
+    right: 0;
+    opacity: 1;
   }
 }
 
