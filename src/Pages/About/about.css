@@ -54,3 +54,35 @@
 .a-detail .button {
   margin: 0.8rem 0 !important;
 }
+
+
+.exp{
+    display: flex;
+    background: #222;
+    padding: 3rem 1rem;
+    align-items: center;
+    justify-content: space-around;
+}
+.education, .experience{
+    padding: 2rem 7rem;
+    font-size: 37px;
+    box-shadow: 0 0 2px rgba(128, 128, 128, 0.639);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+}
+
+.year{
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+.year p{
+    color: grey;
+}
+.year div{
+    height: 90px; width: 1px;
+    background: #b6fb41;
+}

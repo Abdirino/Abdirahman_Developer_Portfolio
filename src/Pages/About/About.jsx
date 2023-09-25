@@ -31,6 +31,18 @@ const About = () => {
                         </button>
                     </div>
                 </div>
+                <div className="exp">
+                    <div className="education">
+                        <h1>EDUCATION</h1>
+                        <div className="exp-detail">
+                            <div className="year">
+                                <p>2022 - 2023</p>
+                                <div></div>
+                            </div>
+                        </div>
+                    </div>
+                    {/* <div className="experience">EXPERIENCE</div> */}
+                </div>
             </div>
         </>
     )
