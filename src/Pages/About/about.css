@@ -10,13 +10,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 2rem;
+  gap: 3.5rem;
   border-bottom: 2px solid grey;
 }
 .a-image {
   display: flex;
   flex: 1 1 500px;
   overflow: hidden;
+  border-radius: 2px;
   /* clip-path: circle(50%); */
 }
 .a-image img {
@@ -79,7 +80,7 @@
     padding: 2rem 8rem;
     margin: 2rem;
     font-size: 35px;
-    box-shadow: 0 0 4px rgba(162, 161, 161, 0.7);
+    box-shadow: 0 0 4px #b6fb41;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -99,6 +100,7 @@
 }
 .ex-detail h2{
   font-size: 40px;
+  color: #b6fb41;
 }
 .ex-detail h3{
   color: grey;

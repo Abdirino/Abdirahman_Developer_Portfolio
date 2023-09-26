@@ -4,6 +4,7 @@ import Navbar from '../../Components/Navbar/Navbar'
 
 import AboutIMG from '../../Assets/Images/About_IMG.jpg'
 import Background from '../../Components/Background/Background'
+import Record from '../../Components/Record/Record'
 
 const About = () => {
     return (
@@ -54,6 +55,7 @@ const About = () => {
                         </div>
                     </div>
                 </div>
+                <Record />
 
             </div>
         </>
