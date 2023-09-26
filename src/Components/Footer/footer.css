@@ -6,9 +6,10 @@
 .footer {
   padding: 5rem 3rem;
   background: #111;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 3rem;
+  align-items: start;
   color: white;
   border-bottom: 1px solid grey;
 }
@@ -17,6 +18,7 @@
 .f-socials {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 1rem;
 }
 .f-socials i, .email i, .num i {
@@ -25,7 +27,7 @@
   transition: 0.3s ease;
 }
 .num p, .email p{
-    font-size: 25px;
+    font-size: 21px;
     margin: 0 10px;
 }
 .f-socials a {
@@ -64,4 +66,18 @@
 }
 .copy-write img{
     width: 70px;
+}
+
+@media(max-width: 1167px){
+    .copy-write{
+        justify-content: center;
+    }
+    .footer{
+        flex-wrap: wrap;
+    }
+    .f-socials i, .email i, .num i {
+        font-size: 35px;
+        cursor: pointer;
+        transition: 0.3s ease;
+      }
 }
