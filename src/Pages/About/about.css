@@ -11,12 +11,13 @@
   align-items: center;
   justify-content: center;
   gap: 2rem;
+  border-bottom: 2px solid grey;
 }
 .a-image {
   display: flex;
   flex: 1 1 500px;
   overflow: hidden;
-  clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+  /* clip-path: circle(50%); */
 }
 .a-image img {
   width: 100%;
@@ -26,63 +27,99 @@
 
 .a-detail {
   display: flex;
-  flex: 1 1 450px;
+  flex: 1 1 500px;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: 0.8rem;
+  gap: 1.8rem;
   text-align: start;
 }
 .a-detail h3 {
   color: #b6fb41;
-  font-size: 15px;
-  padding: 0.6rem 0;
+  font-size: 14px;
+  font-weight: lighter;
+  /* padding: 0.6rem 0; */
 }
 .a-detail h1 {
   color: #b6fb41;
-  font-size: 40px;
+  font-size: 42px;
   font-weight: lighter;
 }
 .a-detail h2 {
   color: rgb(255, 255, 255);
-  font-size: 21px;
+  font-size: 25px;
 }
 .a-detail p {
   color: grey;
-  font-size: 19px;
+  font-size: 18px;
 }
 .a-detail .button {
-  margin: 0.8rem 0 !important;
+  margin: 0 !important;
 }
 
 
 .exp{
     display: flex;
-    background: #222;
+    background: #111;
     padding: 3rem 1rem;
-    align-items: center;
+    /* align-items: center; */
     justify-content: space-around;
 }
 .education, .experience{
-    padding: 2rem 7rem;
-    font-size: 37px;
-    box-shadow: 0 0 2px rgba(128, 128, 128, 0.639);
+  display: flex;
+  flex: 1 1 400px;
+  /* justify-content: center;
+  align-items: center; */
+  flex-direction: column;
+  gap: 1.7rem;
+  color: white;
+  text-align: start;
+}
+.education h1, .experience h1{
+    padding: 2rem 8rem;
+    margin: 2rem;
+    font-size: 35px;
+    box-shadow: 0 0 4px rgba(162, 161, 161, 0.7);
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
     cursor: pointer;
 }
+.ex-detail{
+  margin: 0 2rem 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  text-align: start;
+  gap: 1.1rem;
+}
+.ex-detail p{
+  color: grey;
+}
+.ex-detail h2{
+  font-size: 40px;
+}
+.ex-detail h3{
+  color: grey;
+}
 
-.year{
-    display: flex;
-    align-items: center;
-    gap: 4rem;
+@media(max-width: 1168px){
+  .about{
+    flex-wrap: wrap;
+  }
+  .exp{
+    flex-wrap: wrap;
+  }
 }
-.year p{
-    color: grey;
-}
-.year div{
-    height: 90px; width: 1px;
-    background: #b6fb41;
+
+@media(max-width: 568px){
+  .education h1, .experience h1{
+    padding: 1rem 4rem;
+    margin: 1rem;
+    font-size: 29px;
+  }
+  .ex-detail h2{
+    font-size: 30px;
+  }
 }

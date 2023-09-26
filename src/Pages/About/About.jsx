@@ -12,37 +12,49 @@ const About = () => {
             <Background />
             <div className="About">
                 <div className="about">
-                    <div className="a-image">
-                        <img src={AboutIMG} alt="" />
-                    </div>
                     <div className="a-detail">
                         <h3>|| About Me</h3>
                         <h1>I'm Abdirahman Abdulaziz</h1>
                         <h2>Front-End Developer : specializing in HTML, CSS, JavaScript, React & Git.</h2>
-                        <p>I craft cutting-edge web interfaces that streamline workflows. My goal
-                            is to deliver exceptional experiences that
+                        <p>My goal is to deliver exceptional experiences that
                             meet both client needs and industry expectations,
                             ensuring your projects are not only successful but
                             also ahead of the curve.
                         </p>
                         <button className="button">
-                            <span>GET RESUME</span>
-                            <i class="fa-solid fa-download"></i>
+                            <span>RESUME</span>
+                            <i class="fa-solid fa-file"></i>
                         </button>
+                    </div>
+
+                    <div className="a-image">
+                        <img src={AboutIMG} alt="" />
                     </div>
                 </div>
                 <div className="exp">
                     <div className="education">
                         <h1>EDUCATION</h1>
-                        <div className="exp-detail">
-                            <div className="year">
-                                <p>2022 - 2023</p>
-                                <div></div>
-                            </div>
+                        <div className="ex-detail">
+                            <p>|| 2022 - 2023</p>
+                            <h2>Certificate In Website and Software Development</h2>
+                            <h3>Inceptor Institute Of Technology</h3>
+                        </div>
+                        <div className="ex-detail">
+                            <p>|| 2023 - Present</p>
+                            <h2>Diploma In Software Engineering</h2>
+                            <h3>Zetech University</h3>
                         </div>
                     </div>
-                    {/* <div className="experience">EXPERIENCE</div> */}
+                    <div className="experience">
+                        <h1>EXPERIENCE</h1>
+                        <div className="ex-detail">
+                            <p>|| 2023 - Present</p>
+                            <h2>Freelance Front-End Developer</h2>
+                            <h3>Upwork Inc.</h3>
+                        </div>
+                    </div>
                 </div>
+
             </div>
         </>
     )

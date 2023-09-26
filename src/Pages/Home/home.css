@@ -140,7 +140,7 @@
 
 @media (max-width: 567px) {
   .h-detail {
-    padding: 0.6rem;
+    padding: 0rem;
   }
   .h-detail h1 {
     font-size: 38px;
