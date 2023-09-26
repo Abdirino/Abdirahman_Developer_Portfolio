@@ -1,6 +1,8 @@
 import React from 'react'
 import './home.css'
 import Navbar from '../../Components/Navbar/Navbar'
+import Record from '../../Components/Record/Record'
+import Footer from '../../Components/Footer/Footer'
 
 const Home = () => {
   return (
@@ -50,6 +52,8 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <Record />
+      <Footer />
     </>
   )
 }
