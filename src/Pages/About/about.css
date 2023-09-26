@@ -76,6 +76,9 @@
   color: white;
   text-align: start;
 }
+.education{
+  border-right: 2px solid rgba(128, 128, 128, 0.5);
+}
 .education h1, .experience h1{
     padding: 2rem 8rem;
     margin: 2rem;
@@ -112,6 +115,9 @@
   }
   .exp{
     flex-wrap: wrap;
+  }
+  .education{
+    border: none;
   }
 }
 
