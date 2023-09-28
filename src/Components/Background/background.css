@@ -12,3 +12,8 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+@media(max-width:867px) {
+  .background{
+    height: 21vh;
+  }
+}
