@@ -33,6 +33,7 @@ const About = () => {
                         <img src={AboutIMG} alt="" />
                     </div>
                 </div>
+                <div className='line'></div>
                 <div className="exp">
                     <div className="education">
                         <h1>EDUCATION</h1>

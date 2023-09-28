@@ -3,7 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+.About{
+  background: #111
+}
 .about {
   padding: 5rem 1.7rem;
   background: #111;
@@ -11,7 +13,7 @@
   align-items: center;
   justify-content: center;
   gap: 3.5rem;
-  border-bottom: 2px solid grey;
+  /* border-bottom: 2px solid grey; */
 }
 .a-image {
   display: flex;
@@ -58,15 +60,20 @@
   margin: 0 !important;
 }
 
-
-.exp{
-    display: flex;
-    background: #111;
-    padding: 3rem 1rem;
-    /* align-items: center; */
-    justify-content: space-around;
+.line{
+  width: 100%; height: 2px;
+  background: grey;
 }
-.education, .experience{
+
+.exp {
+  display: flex;
+  background: #111;
+  padding: 3rem 1rem;
+  /* align-items: center; */
+  justify-content: space-around;
+}
+.education,
+.experience {
   display: flex;
   flex: 1 1 400px;
   /* justify-content: center;
@@ -76,21 +83,22 @@
   color: white;
   text-align: start;
 }
-.education{
+.education {
   border-right: 2px solid rgba(128, 128, 128, 0.5);
 }
-.education h1, .experience h1{
-    padding: 2rem 8rem;
-    margin: 2rem;
-    font-size: 35px;
-    box-shadow: 0 0 4px #b6fb41;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    cursor: pointer;
+.education h1,
+.experience h1 {
+  padding: 2rem 8rem;
+  margin: 2rem;
+  font-size: 35px;
+  box-shadow: 0 0 4px #b7fb41cc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  cursor: pointer;
 }
-.ex-detail{
+.ex-detail {
   margin: 0 2rem 2rem 2rem;
   display: flex;
   flex-direction: column;
@@ -98,36 +106,62 @@
   text-align: start;
   gap: 1.1rem;
 }
-.ex-detail p{
+.ex-detail p {
   color: grey;
 }
-.ex-detail h2{
+.ex-detail h2 {
   font-size: 40px;
   color: #b6fb41;
 }
-.ex-detail h3{
+.ex-detail h3 {
   color: grey;
 }
 
-@media(max-width: 1168px){
-  .about{
+@media (max-width: 1168px) {
+  .about {
     flex-wrap: wrap;
   }
-  .exp{
+  .exp {
     flex-wrap: wrap;
   }
-  .education{
+  .education {
     border: none;
   }
 }
 
-@media(max-width: 568px){
-  .education h1, .experience h1{
-    padding: 1rem 4rem;
+@media (max-width: 568px) {
+  .education h1,
+  .experience h1 {
+    padding: 1rem 3rem;
     margin: 1rem;
-    font-size: 29px;
+    font-size: 25px;
   }
-  .ex-detail h2{
+  .ex-detail h2 {
     font-size: 30px;
+  }
+  .a-detail h1 {
+    color: #b6fb41;
+    font-size: 32px;
+    font-weight: lighter;
+  }
+  .a-detail h2 {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+  }
+  .a-detail p {
+    color: grey;
+    font-size: 15px;
+  }
+}
+
+@media(min-width:1890px) {
+  .About{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .about, .exp{
+    max-width: 69%;
   }
 }
