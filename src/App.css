@@ -8,11 +8,11 @@
   text-decoration: none;
   list-style: none;
 }
-.App h1, h2, h3, h4, span {
+.App h1, h2, h3, h4, span, li, ul {
   font-family: "Overpass", sans-serif;
   letter-spacing: 2px;
 }
-.App p, li, ul {
+.App p {
   font-family: "Geologica", sans-serif;
   letter-spacing: 1px;
 }

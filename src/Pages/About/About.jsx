@@ -4,7 +4,7 @@ import Navbar from '../../Components/Navbar/Navbar'
 
 import AboutIMG from '../../Assets/Images/About_IMG.jpg'
 import Background from '../../Components/Background/Background'
-import Record from '../../Components/Record/Record'
+// import Record from '../../Components/Record/Record'
 import Footer from '../../Components/Footer/Footer'
 
 const About = () => {
@@ -35,6 +35,15 @@ const About = () => {
                 </div>
                 <div className='line'></div>
                 <div className="exp">
+                    <div className="experience">
+                        <h1>EXPERIENCE</h1>
+                        <div className="ex-detail">
+                            <p>|| 2023 - Present</p>
+                            <h2>Freelance Front-End Developer</h2>
+                            <h3>Upwork Inc.</h3>
+                        </div>
+                    </div>
+
                     <div className="education">
                         <h1>EDUCATION</h1>
                         <div className="ex-detail">
@@ -48,16 +57,8 @@ const About = () => {
                             <h3>Zetech University</h3>
                         </div>
                     </div>
-                    <div className="experience">
-                        <h1>EXPERIENCE</h1>
-                        <div className="ex-detail">
-                            <p>|| 2023 - Present</p>
-                            <h2>Freelance Front-End Developer</h2>
-                            <h3>Upwork Inc.</h3>
-                        </div>
-                    </div>
                 </div>
-                <Record />
+                {/* <Record /> */}
                 <Footer />
 
             </div>

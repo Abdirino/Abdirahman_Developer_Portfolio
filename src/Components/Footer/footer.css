@@ -54,7 +54,9 @@
     background: #111;
     display: flex;
     padding: 1rem;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 8px;
+    flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -65,7 +67,7 @@
     color: rgb(255, 255, 255);
 }
 .copy-write img{
-    width: 70px;
+    width: 69px;
 }
 
 @media(max-width: 1167px){

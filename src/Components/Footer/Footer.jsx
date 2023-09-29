@@ -1,12 +1,14 @@
 import React from 'react'
 import './footer.css'
+import ScrollToTop from 'react-scroll-to-top'
 
 import FooterIMG from '../../Assets/Images/A-Footer.png'
 
 const Footer = () => {
   return (
     <>
-      <div className="footer">
+    <ScrollToTop smooth top="20" style={{background:'#b6fb41', fontWeight: 'bolder'}}/>
+      {/* <div className="footer">
         <div className="num">
           <i className="fa fa-square-phone"></i>
           <p>+254 708 299034</p>
@@ -29,12 +31,12 @@ const Footer = () => {
             <i class="fa-brands fa-square-github text"></i>
           </a>
         </div>
-      </div>
+      </div> */}
       <div className="copy-write">
+        <img src={FooterIMG} alt="Logo" />
         <p>
           © 2023 <span> Abdirahman A. </span> Dev Portfolio Made with ❤️. 
         </p>
-        <img src={FooterIMG} alt="Logo" />
       </div>
     </>
   )

@@ -1,7 +1,7 @@
 import React from 'react'
 import './home.css'
 import Navbar from '../../Components/Navbar/Navbar'
-import Record from '../../Components/Record/Record'
+// import Record from '../../Components/Record/Record'
 import Footer from '../../Components/Footer/Footer'
 
 const Home = () => {
@@ -35,6 +35,9 @@ const Home = () => {
                 partnership in the digital realm.
               </h2>
               <div className="social">
+                <a href="tel: +254 708 299034">
+                  <i class="fa-solid fa-square-phone text"></i>
+                </a>
                 <a target="_blank" rel="noreferrer" href="https://twitter.com/AbdirinoAhash">
                   <i class="fa-brands fa-square-x-twitter text"></i>
                 </a>
@@ -52,7 +55,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <Record />
+      {/* <Record /> */}
       <Footer />
     </>
   )
