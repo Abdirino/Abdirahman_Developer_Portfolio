@@ -58,6 +58,7 @@ const About = () => {
                         </div>
                     </div>
                 </div>
+                <div className='line'></div>
                 {/* <Record /> */}
                 <Footer />
 
