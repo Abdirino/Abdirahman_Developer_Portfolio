@@ -13,7 +13,7 @@ const Home = () => {
           <div className="h-detail">
             <h1 className='text'>Hello there 👋,</h1>
             <h1 className='text2'>I'm Abdirahman A.</h1>
-            <p>Front-End Developer specializing in HTML, CSS, JavaScript, React & Git.</p>
+            <p>Front-End Developer with Expertise in HTML, CSS, JavaScript, React, Next.js, and Git.</p>
             <button className="button">
               <span>GET RESUME</span>
               <i class="fa-solid fa-download"></i>
