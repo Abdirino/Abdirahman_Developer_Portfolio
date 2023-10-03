@@ -38,6 +38,11 @@ const About = () => {
                     <div className="experience">
                         <h1>EXPERIENCE</h1>
                         <div className="ex-detail">
+                            <p>|| 2022 - 2023</p>
+                            <h2>Junior Front-End Developer</h2>
+                            <h3>IAffordable LTD.</h3>
+                        </div>
+                        <div className="ex-detail">
                             <p>|| 2023 - Present</p>
                             <h2>Freelance Front-End Developer</h2>
                             <h3>Upwork Inc.</h3>
